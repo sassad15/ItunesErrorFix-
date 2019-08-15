@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048C603F2302E81900C50C63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C603E2302E81900C50C63 /* AppDelegate.swift */; };
+		048C60412302E81900C50C63 /* FeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C60402302E81900C50C63 /* FeatureViewController.swift */; };
+		048C60442302E81900C50C63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048C60422302E81900C50C63 /* Main.storyboard */; };
+		048C60462302E81A00C50C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048C60452302E81A00C50C63 /* Assets.xcassets */; };
+		048C60492302E81A00C50C63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048C60472302E81A00C50C63 /* LaunchScreen.storyboard */; };
+		048C60562302EA5D00C50C63 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C60552302EA5D00C50C63 /* Album.swift */; };
+		048C60592302ED5F00C50C63 /* ItunesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C60582302ED5F00C50C63 /* ItunesAPI.swift */; };
+		048C605B2302EF9C00C50C63 /* ItunesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C605A2302EF9C00C50C63 /* ItunesService.swift */; };
+		048C605D2302F87600C50C63 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C605C2302F87600C50C63 /* ListViewController.swift */; };
+		048C605F2302F88100C50C63 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C605E2302F88100C50C63 /* GridViewController.swift */; };
+		048C60612303004A00C50C63 /* AlbumCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C60602303004A00C50C63 /* AlbumCollectionCell.swift */; };
+		048C606323030A2600C50C63 /* AlbumTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C606223030A2600C50C63 /* AlbumTableCell.swift */; };
+		04AD4A7B2304359500E11752 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4A7A2304359500E11752 /* ViewModel.swift */; };
+		04AD4A7D23044B7E00E11752 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4A7C23044B7E00E11752 /* DetailViewController.swift */; };
+		04AD4A7F23044C4F00E11752 /* DetailTableCellOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4A7E23044C4F00E11752 /* DetailTableCellOne.swift */; };
+		04AD4A8123044C6200E11752 /* DetailTableCellTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4A8023044C6200E11752 /* DetailTableCellTwo.swift */; };
+		04AD4A8323044E0400E11752 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD4A8223044E0400E11752 /* Track.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		048C603B2302E81900C50C63 /* ItunesApp729.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItunesApp729.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048C603E2302E81900C50C63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		048C60402302E81900C50C63 /* FeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureViewController.swift; sourceTree = "<group>"; };
+		048C60432302E81900C50C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048C60452302E81A00C50C63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048C60482302E81A00C50C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048C604A2302E81A00C50C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048C60552302EA5D00C50C63 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		048C60582302ED5F00C50C63 /* ItunesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesAPI.swift; sourceTree = "<group>"; };
+		048C605A2302EF9C00C50C63 /* ItunesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesService.swift; sourceTree = "<group>"; };
+		048C605C2302F87600C50C63 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		048C605E2302F88100C50C63 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		048C60602303004A00C50C63 /* AlbumCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionCell.swift; sourceTree = "<group>"; };
+		048C606223030A2600C50C63 /* AlbumTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableCell.swift; sourceTree = "<group>"; };
+		04AD4A7A2304359500E11752 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		04AD4A7C23044B7E00E11752 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		04AD4A7E23044C4F00E11752 /* DetailTableCellOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableCellOne.swift; sourceTree = "<group>"; };
+		04AD4A8023044C6200E11752 /* DetailTableCellTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableCellTwo.swift; sourceTree = "<group>"; };
+		04AD4A8223044E0400E11752 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048C60382302E81900C50C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048C60322302E81900C50C63 = {
+			isa = PBXGroup;
+			children = (
+				048C603D2302E81900C50C63 /* ItunesApp729 */,
+				048C603C2302E81900C50C63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048C603C2302E81900C50C63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048C603B2302E81900C50C63 /* ItunesApp729.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048C603D2302E81900C50C63 /* ItunesApp729 */ = {
+			isa = PBXGroup;
+			children = (
+				048C60522302E84400C50C63 /* Model */,
+				048C60512302E84100C50C63 /* View */,
+				048C60502302E83C00C50C63 /* ViewModel */,
+				048C60532302E84A00C50C63 /* Storyboard */,
+				048C60542302E85400C50C63 /* ViewController */,
+				048C60572302ED5000C50C63 /* Service */,
+				048C60452302E81A00C50C63 /* Assets.xcassets */,
+				048C604A2302E81A00C50C63 /* Info.plist */,
+				048C603E2302E81900C50C63 /* AppDelegate.swift */,
+			);
+			path = ItunesApp729;
+			sourceTree = "<group>";
+		};
+		048C60502302E83C00C50C63 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04AD4A7A2304359500E11752 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		048C60512302E84100C50C63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				048C60602303004A00C50C63 /* AlbumCollectionCell.swift */,
+				048C606223030A2600C50C63 /* AlbumTableCell.swift */,
+				04AD4A7E23044C4F00E11752 /* DetailTableCellOne.swift */,
+				04AD4A8023044C6200E11752 /* DetailTableCellTwo.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		048C60522302E84400C50C63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				048C60552302EA5D00C50C63 /* Album.swift */,
+				04AD4A8223044E0400E11752 /* Track.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		048C60532302E84A00C50C63 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				048C60422302E81900C50C63 /* Main.storyboard */,
+				048C60472302E81A00C50C63 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		048C60542302E85400C50C63 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				048C60402302E81900C50C63 /* FeatureViewController.swift */,
+				04AD4A7C23044B7E00E11752 /* DetailViewController.swift */,
+				048C605C2302F87600C50C63 /* ListViewController.swift */,
+				048C605E2302F88100C50C63 /* GridViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		048C60572302ED5000C50C63 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				048C60582302ED5F00C50C63 /* ItunesAPI.swift */,
+				048C605A2302EF9C00C50C63 /* ItunesService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048C603A2302E81900C50C63 /* ItunesApp729 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048C604D2302E81A00C50C63 /* Build configuration list for PBXNativeTarget "ItunesApp729" */;
+			buildPhases = (
+				048C60372302E81900C50C63 /* Sources */,
+				048C60382302E81900C50C63 /* Frameworks */,
+				048C60392302E81900C50C63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ItunesApp729;
+			productName = ItunesApp729;
+			productReference = 048C603B2302E81900C50C63 /* ItunesApp729.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048C60332302E81900C50C63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					048C603A2302E81900C50C63 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 048C60362302E81900C50C63 /* Build configuration list for PBXProject "ItunesApp729" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048C60322302E81900C50C63;
+			productRefGroup = 048C603C2302E81900C50C63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048C603A2302E81900C50C63 /* ItunesApp729 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048C60392302E81900C50C63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048C60492302E81A00C50C63 /* LaunchScreen.storyboard in Resources */,
+				048C60462302E81A00C50C63 /* Assets.xcassets in Resources */,
+				048C60442302E81900C50C63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048C60372302E81900C50C63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AD4A7D23044B7E00E11752 /* DetailViewController.swift in Sources */,
+				04AD4A7B2304359500E11752 /* ViewModel.swift in Sources */,
+				048C606323030A2600C50C63 /* AlbumTableCell.swift in Sources */,
+				048C60592302ED5F00C50C63 /* ItunesAPI.swift in Sources */,
+				04AD4A8123044C6200E11752 /* DetailTableCellTwo.swift in Sources */,
+				04AD4A7F23044C4F00E11752 /* DetailTableCellOne.swift in Sources */,
+				048C60612303004A00C50C63 /* AlbumCollectionCell.swift in Sources */,
+				048C60412302E81900C50C63 /* FeatureViewController.swift in Sources */,
+				048C605D2302F87600C50C63 /* ListViewController.swift in Sources */,
+				048C605F2302F88100C50C63 /* GridViewController.swift in Sources */,
+				048C605B2302EF9C00C50C63 /* ItunesService.swift in Sources */,
+				048C603F2302E81900C50C63 /* AppDelegate.swift in Sources */,
+				048C60562302EA5D00C50C63 /* Album.swift in Sources */,
+				04AD4A8323044E0400E11752 /* Track.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		048C60422302E81900C50C63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048C60432302E81900C50C63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048C60472302E81A00C50C63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048C60482302E81A00C50C63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048C604B2302E81A00C50C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		048C604C2302E81A00C50C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048C604E2302E81A00C50C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TAXQKHCB7;
+				INFOPLIST_FILE = ItunesApp729/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.ItunesApp729;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		048C604F2302E81A00C50C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TAXQKHCB7;
+				INFOPLIST_FILE = ItunesApp729/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.ItunesApp729;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048C60362302E81900C50C63 /* Build configuration list for PBXProject "ItunesApp729" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048C604B2302E81A00C50C63 /* Debug */,
+				048C604C2302E81A00C50C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048C604D2302E81A00C50C63 /* Build configuration list for PBXNativeTarget "ItunesApp729" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048C604E2302E81A00C50C63 /* Debug */,
+				048C604F2302E81A00C50C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048C60332302E81900C50C63 /* Project object */;
+}
